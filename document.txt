@@ -1,0 +1,27 @@
+1 [khởi tạo resositary] (chỉ nhập 1 lần duy nhất trên mỗi bộ source)
+git init .
+
+2 [add vô commit]
+git add .
+
+3 [thêm commit message để chuẩn bị đẩy lên remote respositary]
+git commit -m "<your mesage>"
+
+additional [xem lại commit cũ]
+git log
+
+4 [kết nối giữa local respositary và remote respositary]
+git remote add origin <git remote respositary url>
+
+5 [đẩy code từ local lên remote]
+git push -u origin master
+
+
+
+
+
+
+
+[ADDITIONAL GIT CLI]
+[kiểm có branch]
+git branch
